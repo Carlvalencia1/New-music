@@ -1,0 +1,73 @@
+#music-player {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1a1a1a; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  text-align: center;
+  color: #ffffff; 
+}
+
+#album-cover img {
+  width: 250px;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#track-info {
+  font-size: 1.2rem; 
+  margin-top: 10px;
+}
+
+#track-info h3 {
+  margin: 0;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+#menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+#menu-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  background-color: #333333;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#menu label {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#menu label:hover {
+  background-color: #555555;
+}
